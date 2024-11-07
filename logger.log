@@ -1234,3 +1234,406 @@ AttributeError: 'str' object has no attribute 'location'
 </body>
 </html>
 [2024-11-07 20:48:12,940] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:48:12] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:57:23,613] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 20:57:23,613] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:57:28,899] WARNING in main: functie: home
+[2024-11-07 20:57:28,900] WARNING in main: args: ()
+[2024-11-07 20:57:28,900] WARNING in main: kwargs: {}
+[2024-11-07 20:57:28,904] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 20:57:28,904] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:57:28] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:57:28,955] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:57:28] "[36mGET /static/style_home.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:57:28,956] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:57:28] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:58:55,937] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 20:58:55,937] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:58:57,823] WARNING in main: functie: home
+[2024-11-07 20:58:57,824] WARNING in main: args: ()
+[2024-11-07 20:58:57,824] WARNING in main: kwargs: {}
+[2024-11-07 20:58:57,828] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fail</title>
+    <link rel="stylesheet" href="/static/reset.css">
+        <link rel="stylesheet" href="/static/fail.css">
+</head>
+<body>
+    <div>
+        <h1>Oops!</h1>
+        <h2>We can't seem to find the page you're looking for</h2>
+    </div>
+    <div>
+        <p>Error code 404</p>
+    </div>
+</body>
+</html>
+[2024-11-07 20:58:57,828] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:58:57] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:58:57,879] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:58:57] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:58:57,880] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:58:57] "[36mGET /static/fail.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:59:00,683] WARNING in main: functie: home
+[2024-11-07 20:59:00,684] WARNING in main: args: ()
+[2024-11-07 20:59:00,684] WARNING in main: kwargs: {}
+[2024-11-07 20:59:00,685] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 20:59:00,685] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:59:00] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:59:00,694] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:59:00] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:59:00,695] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:59:00] "GET /static/style_home.css HTTP/1.1" 200 -
+[2024-11-07 20:59:56,211] WARNING in main: functie: home
+[2024-11-07 20:59:56,211] WARNING in main: args: ()
+[2024-11-07 20:59:56,211] WARNING in main: kwargs: {}
+[2024-11-07 20:59:56,212] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fail</title>
+    <link rel="stylesheet" href="/static/reset.css">
+        <link rel="stylesheet" href="/static/fail.css">
+</head>
+<body>
+    <div>
+        <h1>Oops!</h1>
+        <h2>We can't seem to find the page you're looking for</h2>
+    </div>
+    <div>
+        <p>Error code 404</p>
+    </div>
+</body>
+</html>
+[2024-11-07 20:59:56,212] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:59:56] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:59:56,224] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:59:56] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:59:56,229] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:59:56] "[36mGET /static/fail.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:01:02,681] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 21:01:02,681] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 21:01:04,387] WARNING in main: functie: home
+[2024-11-07 21:01:04,388] WARNING in main: args: ()
+[2024-11-07 21:01:04,388] WARNING in main: kwargs: {}
+[2024-11-07 21:01:04,391] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 21:01:04,392] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:01:04] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:01:04,440] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:01:04] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:01:04,443] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:01:04] "GET /static/style_home.css HTTP/1.1" 200 -
+[2024-11-07 21:01:46,168] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 21:01:46,169] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 21:01:48,476] WARNING in main: functie: home
+[2024-11-07 21:01:48,476] WARNING in main: args: ()
+[2024-11-07 21:01:48,476] WARNING in main: kwargs: {}
+[2024-11-07 21:01:48,480] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 21:01:48,480] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:01:48] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:01:48,525] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:01:48] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:01:48,530] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:01:48] "GET /static/style_home.css HTTP/1.1" 200 -
+[2024-11-07 21:02:13,874] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 21:02:13,874] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 21:02:16,191] WARNING in main: functie: home
+[2024-11-07 21:02:16,191] WARNING in main: args: ()
+[2024-11-07 21:02:16,191] WARNING in main: kwargs: {}
+[2024-11-07 21:02:16,195] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 21:02:16,196] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:02:16] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:02:16,242] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:02:16] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:02:16,243] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:02:16] "GET /static/style_home.css HTTP/1.1" 200 -
+[2024-11-07 21:02:19,839] WARNING in main: functie: home
+[2024-11-07 21:02:19,839] WARNING in main: args: ()
+[2024-11-07 21:02:19,839] WARNING in main: kwargs: {}
+[2024-11-07 21:02:19,840] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 21:02:19,840] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:02:19] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:02:19,851] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:02:19] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:02:19,852] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:02:19] "[36mGET /static/style_home.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:02:25,950] WARNING in main: functie: home
+[2024-11-07 21:02:25,950] WARNING in main: args: ()
+[2024-11-07 21:02:25,950] WARNING in main: kwargs: {}
+[2024-11-07 21:02:25,950] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 21:02:25,951] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:02:25] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:02:25,961] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:02:25] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:02:25,963] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:02:25] "[36mGET /static/style_home.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:04:08,870] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 21:04:08,870] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 21:04:11,731] WARNING in main: functie: home
+[2024-11-07 21:04:11,731] WARNING in main: args: ()
+[2024-11-07 21:04:11,732] WARNING in main: kwargs: {}
+[2024-11-07 21:04:11,735] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 21:04:11,736] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:04:11] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:04:11,785] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:04:11] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:04:11,786] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:04:11] "[36mGET /static/style_home.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:04:15,708] WARNING in main: functie: home
+[2024-11-07 21:04:15,708] WARNING in main: args: ()
+[2024-11-07 21:04:15,708] WARNING in main: kwargs: {}
+[2024-11-07 21:04:15,708] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 21:04:15,709] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:04:15] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:04:15,717] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:04:15] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:04:15,718] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:04:15] "[36mGET /static/style_home.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:05:19,833] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 21:05:19,833] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 21:05:22,504] WARNING in main: functie: home
+[2024-11-07 21:05:22,504] WARNING in main: args: ()
+[2024-11-07 21:05:22,504] WARNING in main: kwargs: {}
+[2024-11-07 21:05:22,508] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 21:05:22,508] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:22] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:05:22,559] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:22] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:05:22,560] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:22] "[36mGET /static/style_home.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:05:22,609] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:22] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+[2024-11-07 21:05:24,816] WARNING in main: functie: home
+[2024-11-07 21:05:24,816] WARNING in main: args: ()
+[2024-11-07 21:05:24,816] WARNING in main: kwargs: {}
+[2024-11-07 21:05:24,816] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 21:05:24,816] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:24] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:05:24,827] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:24] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:05:24,829] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:24] "[36mGET /static/style_home.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:05:26,088] WARNING in main: functie: home
+[2024-11-07 21:05:26,088] WARNING in main: args: ()
+[2024-11-07 21:05:26,088] WARNING in main: kwargs: {}
+[2024-11-07 21:05:26,088] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>Geen URL opgegeven</h1>
+</body>
+</html>
+[2024-11-07 21:05:26,089] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:26] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:05:26,098] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:26] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:05:26,099] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:26] "[36mGET /static/style_home.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:05:30,073] WARNING in main: functie: home
+[2024-11-07 21:05:30,073] WARNING in main: args: ()
+[2024-11-07 21:05:30,073] WARNING in main: kwargs: {}
+[2024-11-07 21:05:30,073] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+    <h1>geen geldige link</h1>
+</body>
+</html>
+[2024-11-07 21:05:30,073] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:30] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:05:30,084] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:30] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:05:30,085] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:05:30] "[36mGET /static/style_home.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:06:45,334] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 21:06:45,334] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 21:06:50,053] WARNING in main: functie: home
+[2024-11-07 21:06:50,053] WARNING in main: args: ()
+[2024-11-07 21:06:50,053] WARNING in main: kwargs: {}
+[2024-11-07 21:06:50,061] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.veldje');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="veldje" value="http://127.0.0.1:5000/kuvosalazwnoqjmv" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 21:06:50,061] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:06:50] "POST / HTTP/1.1" 200 -
+[2024-11-07 21:06:50,108] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:06:50] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:06:50,110] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:06:50] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 21:06:55,160] WARNING in main: functie: url_match
+[2024-11-07 21:06:55,160] WARNING in main: args: ()
+[2024-11-07 21:06:55,160] WARNING in main: kwargs: {'url': 'kuvosalazwnoqjmv'}
+[2024-11-07 21:06:55,161] WARNING in main: resultaat: <Response 229 bytes [302 FOUND]>
+[2024-11-07 21:06:55,161] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:06:55] "[32mGET /kuvosalazwnoqjmv HTTP/1.1[0m" 302 -
+[2024-11-07 21:07:02,394] WARNING in main: functie: url_match
+[2024-11-07 21:07:02,394] WARNING in main: args: ()
+[2024-11-07 21:07:02,394] WARNING in main: kwargs: {'url': 'kuvosalazwnoqjmv'}
+[2024-11-07 21:07:02,394] WARNING in main: resultaat: <Response 229 bytes [302 FOUND]>
+[2024-11-07 21:07:02,394] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 21:07:02] "[32mGET /kuvosalazwnoqjmv HTTP/1.1[0m" 302 -

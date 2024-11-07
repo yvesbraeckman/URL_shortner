@@ -6,6 +6,7 @@ from functools import wraps
 from collections import OrderedDict
 import sqlite3
 import random
+import validators
 
 con = sqlite3.connect("URL_Shortner.sqlite")
 cur = con.cursor()
@@ -92,17 +93,20 @@ def home():
     data = []
     if request.method == "POST":
         if request.form["url"] != "":
-            with sqlite3.connect("URL_Shortner.sqlite") as con_1:
-                alias = randomstring()
-                cur_1 = con_1.cursor()
-                data.append((request.form["url"], alias))
-                cur_1.executemany("""INSERT INTO Links VALUES (?, ?)""", data)
-                con_1.commit()
-                print(alias)
-            return render_template("succes.html", alias=alias)
+            if validators.url(request.form["url"]):
+                with sqlite3.connect("URL_Shortner.sqlite") as con_1:
+                    alias = randomstring()
+                    cur_1 = con_1.cursor()
+                    data.append((request.form["url"], alias))
+                    cur_1.executemany("""INSERT INTO Links VALUES (?, ?)""", data)
+                    con_1.commit()
+                    print(alias)
+                return render_template("succes.html", alias=alias)
+            else:
+                return render_template("home.html", error="geen geldige link")
         else:
             errors.append("Geen URL opgegeven")
-            return render_template("fail.html", errors=errors)
+            return render_template("home.html", error=errors[0])
     return render_template("home.html")
 
 

@@ -10,8 +10,20 @@ body {
   height: 100vh;
   background-color: #f8f7ff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+h1{
+ font-family: din-round, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  font-size: 5rem;
+  margin-top: 3rem;
+  color: #9381ff;
 }
 
 form {
