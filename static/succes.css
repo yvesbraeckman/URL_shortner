@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    font-family: din-round, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f7ff;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: din-round, sans-serif;
+    color: limegreen;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+}
