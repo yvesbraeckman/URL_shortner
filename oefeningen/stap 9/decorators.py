@@ -29,3 +29,21 @@ magic_eight_ball("test")
 magic_eight_ball("c")
 magic_eight_ball("a")
 magic_eight_ball("test")
+
+
+def remember_recent_calls(f):
+    od = OrderedDict()
+    print(od)
+
+    @wraps(f)
+    def wrapper(*args, **kwargs):
+        if args[0] in od:
+            print(od[args[0]])
+            return od[args[0]]
+        else:
+            print(f(*args, **kwargs))
+            result = f(*args, **kwargs)
+            if len(od) >= 5:
+                od.popitem(last=False)
+            od[args[0]] = result
+            return result
