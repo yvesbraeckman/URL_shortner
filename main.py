@@ -10,6 +10,7 @@ cur = con.cursor()
 app = Flask(__name__)
 
 
+
 dictConfig(
     {
         "version": 1,
