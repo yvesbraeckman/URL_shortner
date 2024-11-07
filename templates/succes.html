@@ -2,11 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>succes</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='reset.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='succes.css') }}">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.veldje');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
 </head>
 <body>
-  <h1>Succesvol toegevoegd!</h1>
+    <div class="shortener">
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="veldje" value="http://127.0.0.1:5000/{{alias}}" readonly>
+        </div>
+    </div>
 </body>
 </html>
+

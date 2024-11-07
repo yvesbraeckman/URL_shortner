@@ -1,23 +1,17 @@
-[2024-11-05 16:17:07,824] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 19:09:20,121] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-05 16:17:07,824] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-05 16:17:19,134] INFO in _internal: 127.0.0.1 - - [05/Nov/2024 16:17:19] "POST / HTTP/1.1" 200 -
-[2024-11-05 16:17:19,150] INFO in _internal: 127.0.0.1 - - [05/Nov/2024 16:17:19] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
-[2024-11-05 16:17:19,150] INFO in _internal: 127.0.0.1 - - [05/Nov/2024 16:17:19] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
-[2024-11-05 16:21:22,028] DEBUG in main: tesst bezocht
-[2024-11-05 16:21:22,033] INFO in _internal: 127.0.0.1 - - [05/Nov/2024 16:21:22] "GET /tesst HTTP/1.1" 200 -
-[2024-11-05 16:21:22,042] INFO in _internal: 127.0.0.1 - - [05/Nov/2024 16:21:22] "[36mGET /static/fail.css HTTP/1.1[0m" 304 -
-[2024-11-05 16:21:22,042] INFO in _internal: 127.0.0.1 - - [05/Nov/2024 16:21:22] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
-[2024-11-05 16:55:44,362] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 19:09:20,121] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 19:09:24,103] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:09:24] "GET / HTTP/1.1" 200 -
+[2024-11-07 19:16:19,122] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-05 16:55:44,362] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 15:52:40,712] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2024-11-07 15:52:40,712] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 15:52:44,399] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:52:44] "GET / HTTP/1.1" 200 -
-[2024-11-07 15:52:44,461] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:52:44] "GET /static/reset.css HTTP/1.1" 200 -
-[2024-11-07 15:52:44,461] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:52:44] "GET /static/style_home.css HTTP/1.1" 200 -
-[2024-11-07 15:52:44,633] ERROR in app: Exception on /favicon.ico [GET]
+[2024-11-07 19:16:19,122] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 19:16:24,046] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:16:24] "POST / HTTP/1.1" 200 -
+[2024-11-07 19:16:24,098] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:16:24] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:16:24,099] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:16:24] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:16:29,918] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:16:29] "GET /efufvvkhazjfrjdw HTTP/1.1" 200 -
+[2024-11-07 19:16:29,925] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:16:29] "GET /static/fail.css HTTP/1.1" 200 -
+[2024-11-07 19:16:29,925] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:16:29] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:16:30,316] ERROR in app: Exception on /naypgaclqcwaigmf [GET]
 Traceback (most recent call last):
   File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
     response = self.full_dispatch_request()
@@ -31,75 +25,44 @@ Traceback (most recent call last):
   File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 20, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:52:44,634] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:52:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 15:52:51,391] ERROR in app: Exception on /testje [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 20, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:52:51,391] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:52:51] "[35m[1mGET /testje HTTP/1.1[0m" 500 -
-[2024-11-07 15:52:51,459] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 20, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:52:51,460] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:52:51] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 15:53:28,045] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 23, in wrapper
+    for input, output in cache:
+        ^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+[2024-11-07 19:16:30,318] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:16:30] "[35m[1mGET /naypgaclqcwaigmf HTTP/1.1[0m" 500 -
+[2024-11-07 19:18:12,577] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 15:53:28,045] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 15:53:28,046] INFO in _internal:  * Restarting with stat
-[2024-11-07 15:53:28,321] WARNING in _internal:  * Debugger is active!
-[2024-11-07 15:53:28,323] INFO in _internal:  * Debugger PIN: 576-212-763
-[2024-11-07 15:53:31,209] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:53:31] "[35m[1mGET /testje HTTP/1.1[0m" 500 -
-[2024-11-07 15:53:31,259] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:53:31] "GET /testje?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-[2024-11-07 15:53:31,260] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:53:31] "GET /testje?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-[2024-11-07 15:53:31,288] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:53:31] "GET /testje?__debugger__=yes&cmd=resource&f=console.png&s=ScHNABSOrnSziB8u7vRi HTTP/1.1" 200 -
-[2024-11-07 15:53:31,372] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:53:31] "GET /testje?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-[2024-11-07 15:54:11,637] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 19:18:12,578] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 19:18:23,621] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:23] "GET / HTTP/1.1" 200 -
+[2024-11-07 19:18:26,294] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:26] "POST / HTTP/1.1" 200 -
+[2024-11-07 19:18:26,348] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:26] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:18:26,348] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:26] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:18:31,170] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:31] "GET /efufvvkhazjfrjdw HTTP/1.1" 200 -
+[2024-11-07 19:18:31,177] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:31] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:18:31,178] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:31] "[36mGET /static/fail.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:18:31,517] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:31] "[32mGET /ptlgxiaxmzhmlmzw HTTP/1.1[0m" 302 -
+[2024-11-07 19:18:49,735] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:49] "GET /efufvvkhazjfrjdw HTTP/1.1" 200 -
+[2024-11-07 19:18:49,795] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:49] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:18:49,796] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:49] "[36mGET /static/fail.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:18:50,545] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:18:50] "[32mGET /ptlgxiaxmzhmlmzw HTTP/1.1[0m" 302 -
+[2024-11-07 19:20:04,379] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 15:54:11,637] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 15:54:11,638] INFO in _internal:  * Restarting with stat
-[2024-11-07 15:54:12,043] WARNING in _internal:  * Debugger is active!
-[2024-11-07 15:54:12,045] INFO in _internal:  * Debugger PIN: 576-212-763
-[2024-11-07 15:54:13,826] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:54:13] "[35m[1mGET /testje HTTP/1.1[0m" 500 -
-[2024-11-07 15:54:13,872] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:54:13] "[36mGET /testje?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-[2024-11-07 15:54:13,877] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:54:13] "[36mGET /testje?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-[2024-11-07 15:54:13,886] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:54:13] "GET /testje?__debugger__=yes&cmd=resource&f=console.png&s=eprLpHvu4L1BmPEqIBf3 HTTP/1.1" 200 -
-[2024-11-07 15:54:13,975] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:54:13] "[36mGET /testje?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-[2024-11-07 15:54:41,783] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 19:20:04,380] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 19:20:06,527] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:20:06] "GET / HTTP/1.1" 200 -
+[2024-11-07 19:20:07,560] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:20:07] "POST / HTTP/1.1" 200 -
+[2024-11-07 19:20:07,605] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:20:07] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:20:07,608] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:20:07] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:20:12,471] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:20:12] "[32mGET /ocufzrzbbfsbuwpn HTTP/1.1[0m" 302 -
+[2024-11-07 19:20:16,243] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:20:16] "[32mGET /ocufzrzbbfsbuwpn HTTP/1.1[0m" 302 -
+[2024-11-07 19:23:17,664] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 15:54:41,783] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 15:54:44,094] ERROR in app: Exception on /testje [GET]
+[2024-11-07 19:23:17,664] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 19:23:24,889] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:23:24] "GET / HTTP/1.1" 200 -
+[2024-11-07 19:23:25,925] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:23:25] "POST / HTTP/1.1" 200 -
+[2024-11-07 19:23:25,979] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:23:25] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:23:25,979] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:23:25] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:23:32,267] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:23:32] "GET /akvjxetmkgsujypd HTTP/1.1" 200 -
+[2024-11-07 19:23:45,984] ERROR in app: Exception on /akvjxetmkgsujypd [GET]
 Traceback (most recent call last):
   File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
     response = self.full_dispatch_request()
@@ -113,318 +76,1048 @@ Traceback (most recent call last):
   File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 21, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:54:44,095] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:54:44] "[35m[1mGET /testje HTTP/1.1[0m" 500 -
-[2024-11-07 15:54:44,154] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 21, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:54:44,155] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:54:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 15:55:10,000] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 21, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:55:10,001] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:55:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 15:55:29,293] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:55:29] "POST / HTTP/1.1" 200 -
-[2024-11-07 15:55:29,339] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:55:29] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
-[2024-11-07 15:55:29,343] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:55:29] "GET /static/succes.css HTTP/1.1" 200 -
-[2024-11-07 15:55:29,383] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 21, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:55:29,383] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:55:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 15:56:31,368] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:31] "GET / HTTP/1.1" 200 -
-[2024-11-07 15:56:31,490] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 21, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:56:31,491] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 15:56:32,587] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:32] "POST / HTTP/1.1" 200 -
-[2024-11-07 15:56:32,595] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:32] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
-[2024-11-07 15:56:32,597] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:32] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
-[2024-11-07 15:56:32,664] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 21, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:56:32,666] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 15:56:41,635] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 37, in wrapper
+    return result.location
+           ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'location'
+[2024-11-07 19:23:45,986] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:23:45] "[35m[1mGET /akvjxetmkgsujypd HTTP/1.1[0m" 500 -
+[2024-11-07 19:25:30,902] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 15:56:41,635] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 15:56:45,354] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:45] "GET / HTTP/1.1" 200 -
-[2024-11-07 15:56:45,411] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 21, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:56:45,412] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 15:56:46,439] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:46] "POST / HTTP/1.1" 200 -
-[2024-11-07 15:56:46,490] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:46] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
-[2024-11-07 15:56:46,490] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:46] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
-[2024-11-07 15:56:46,528] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 21, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:56:46,528] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:56:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 15:58:27,904] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 19:25:30,903] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 19:25:35,796] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:25:35] "GET / HTTP/1.1" 200 -
+[2024-11-07 19:25:36,675] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:25:36] "POST / HTTP/1.1" 200 -
+[2024-11-07 19:25:36,726] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:25:36] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:25:36,727] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:25:36] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:25:41,646] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:25:41] "[32mGET /lmupyplrmvcjbdso HTTP/1.1[0m" 302 -
+[2024-11-07 19:25:45,766] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:25:45] "[32mGET /lmupyplrmvcjbdso HTTP/1.1[0m" 302 -
+[2024-11-07 19:30:04,563] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 15:58:27,905] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 15:58:35,902] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:58:35] "GET / HTTP/1.1" 200 -
-[2024-11-07 15:58:36,005] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 21, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:58:36,006] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:58:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 15:58:36,785] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:58:36] "POST / HTTP/1.1" 200 -
-[2024-11-07 15:58:36,835] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:58:36] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
-[2024-11-07 15:58:36,836] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:58:36] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
-[2024-11-07 15:58:36,870] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 21, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 15:58:36,871] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 15:58:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 16:09:56,835] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 19:30:04,563] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 19:30:09,113] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:30:09] "GET / HTTP/1.1" 200 -
+[2024-11-07 19:30:10,155] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:30:10] "POST / HTTP/1.1" 200 -
+[2024-11-07 19:30:10,204] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:30:10] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:30:10,207] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:30:10] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:30:15,032] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:30:15] "[32mGET /lptdildxgmgusvcb HTTP/1.1[0m" 302 -
+[2024-11-07 19:30:30,639] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:30:30] "[32mGET /lptdildxgmgusvcb HTTP/1.1[0m" 302 -
+[2024-11-07 19:31:23,047] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 16:09:56,835] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:09:58,554] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:09:58] "GET / HTTP/1.1" 200 -
-[2024-11-07 16:09:58,612] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:09:58] "[36mGET /static/style_home.css HTTP/1.1[0m" 304 -
-[2024-11-07 16:09:58,612] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:09:58] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
-[2024-11-07 16:09:58,827] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 22, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 16:09:58,828] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:09:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 16:10:03,279] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:10:03] "POST / HTTP/1.1" 200 -
-[2024-11-07 16:10:03,289] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:10:03] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
-[2024-11-07 16:10:03,290] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:10:03] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
-[2024-11-07 16:10:03,368] ERROR in app: Exception on /favicon.ico [GET]
-Traceback (most recent call last):
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Yvesb\PycharmProjects\url_shortner\URL_shortner\main.py", line 22, in wrapper
-    if args[0] in cache:
-       ~~~~^^^
-IndexError: tuple index out of range
-[2024-11-07 16:10:03,369] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:10:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
-[2024-11-07 16:12:02,095] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 19:31:23,047] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 19:31:51,707] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:31:51] "GET / HTTP/1.1" 200 -
+[2024-11-07 19:31:52,682] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:31:52] "POST / HTTP/1.1" 200 -
+[2024-11-07 19:31:52,733] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:31:52] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:31:52,733] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:31:52] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 19:31:58,988] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:31:58] "[32mGET /rapaxtjnsjuirzzk HTTP/1.1[0m" 302 -
+[2024-11-07 19:32:11,820] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 19:32:11] "[32mGET /rapaxtjnsjuirzzk HTTP/1.1[0m" 302 -
+[2024-11-07 20:24:29,808] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 16:12:02,095] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:12:06,250] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:12:06] "GET / HTTP/1.1" 200 -
-[2024-11-07 16:12:06,321] DEBUG in main: favicon.ico bezocht
-[2024-11-07 16:12:06,324] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:12:06] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:12:07,207] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:12:07] "POST / HTTP/1.1" 200 -
-[2024-11-07 16:12:07,256] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:12:07] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
-[2024-11-07 16:12:07,257] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:12:07] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
-[2024-11-07 16:12:07,293] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:12:07] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:12:53,707] DEBUG in main: efufvvkhazjfrjdw bezocht
-[2024-11-07 16:12:53,707] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:12:53] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:12:56,211] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:12:56] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:13:00,327] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:13:00] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:13:52,265] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 20:24:29,808] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:24:31,943] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:24:31] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:24:34,653] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:24:34] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:24:34,709] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:24:34] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:24:34,710] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:24:34] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:24:41,653] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:24:41] "[32mGET /jrcijceiagwxaxxe HTTP/1.1[0m" 302 -
+[2024-11-07 20:24:47,801] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:24:47] "[32mGET /jrcijceiagwxaxxe HTTP/1.1[0m" 302 -
+[2024-11-07 20:25:26,895] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 16:13:52,265] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:13:58,364] DEBUG in main: favicon.ico bezocht
-[2024-11-07 16:13:58,369] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:13:58] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:14:01,819] DEBUG in main: efufvvkhazjfrjdw bezocht
-[2024-11-07 16:14:01,820] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:01] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:14:08,384] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:08] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:14:10,116] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:10] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:14:10,410] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:10] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:14:19,030] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:19] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:14:23,492] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:23] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:14:25,150] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:25] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:14:42,501] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 20:25:26,895] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:25:29,985] WARNING in main: functie: home
+[2024-11-07 20:25:29,985] WARNING in main: args: ()
+[2024-11-07 20:25:29,985] WARNING in main: kwargs: {}
+[2024-11-07 20:25:29,989] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:25:29,990] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:25:29] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:25:35,679] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 16:14:42,501] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:14:44,670] DEBUG in main: favicon.ico bezocht
-[2024-11-07 16:14:44,675] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:44] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:14:48,780] DEBUG in main: efufvvkhazjfrjdw bezocht
-[2024-11-07 16:14:48,780] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:48] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:14:49,698] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:49] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:14:51,700] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:51] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:14:53,627] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:53] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:14:54,200] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:14:54] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:16:53,584] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 20:25:35,679] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:25:42,111] WARNING in main: functie: home
+[2024-11-07 20:25:42,112] WARNING in main: args: ()
+[2024-11-07 20:25:42,112] WARNING in main: kwargs: {}
+[2024-11-07 20:25:42,120] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>succes</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+</head>
+<body>
+  <h1>Succesvol toegevoegd!</h1>
+</body>
+</html>
+[2024-11-07 20:25:42,120] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:25:42] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:25:42,170] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:25:42] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:25:42,171] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:25:42] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:25:57,092] WARNING in main: functie: url_match
+[2024-11-07 20:25:57,092] WARNING in main: args: ()
+[2024-11-07 20:25:57,093] WARNING in main: kwargs: {'url': 'fsihrlpvvpjvkhbe'}
+[2024-11-07 20:25:57,093] WARNING in main: resultaat: <Response 229 bytes [302 FOUND]>
+[2024-11-07 20:25:57,093] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:25:57] "[32mGET /fsihrlpvvpjvkhbe HTTP/1.1[0m" 302 -
+[2024-11-07 20:26:11,917] WARNING in main: functie: url_match
+[2024-11-07 20:26:11,917] WARNING in main: args: ()
+[2024-11-07 20:26:11,917] WARNING in main: kwargs: {'url': 'fsihrlpvvpjvkhbe'}
+[2024-11-07 20:26:11,918] WARNING in main: resultaat: <Response 229 bytes [302 FOUND]>
+[2024-11-07 20:26:11,918] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:26:11] "[32mGET /fsihrlpvvpjvkhbe HTTP/1.1[0m" 302 -
+[2024-11-07 20:27:35,962] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 16:16:53,584] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:16:58,966] WARNING in main: favicon.ico bezocht
-[2024-11-07 16:16:58,971] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:16:58] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:17:12,688] WARNING in main: efufvvkhazjfrjdw bezocht
-[2024-11-07 16:17:12,689] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:17:12] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:17:16,225] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:17:16] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:17:41,518] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 20:27:35,962] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:27:38,154] WARNING in main: functie: home
+[2024-11-07 20:27:38,154] WARNING in main: args: ()
+[2024-11-07 20:27:38,154] WARNING in main: kwargs: {}
+[2024-11-07 20:27:38,157] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:27:38,157] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:27:38] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:27:40,423] WARNING in main: functie: home
+[2024-11-07 20:27:40,423] WARNING in main: args: ()
+[2024-11-07 20:27:40,423] WARNING in main: kwargs: {}
+[2024-11-07 20:27:40,429] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>succes</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+</head>
+<body>
+  <h1>Succesvol toegevoegd!</h1>
+    <h3>mvquzxjrglqygbdm</h3>
+</body>
+</html>
+[2024-11-07 20:27:40,429] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:27:40] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:27:40,485] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:27:40] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:27:40,485] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:27:40] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:29:10,485] WARNING in main: functie: home
+[2024-11-07 20:29:10,485] WARNING in main: args: ()
+[2024-11-07 20:29:10,485] WARNING in main: kwargs: {}
+[2024-11-07 20:29:10,485] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:29:10,485] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:29:10] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:30:41,746] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 16:17:41,518] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:17:49,706] WARNING in main: favicon.ico bezocht
-[2024-11-07 16:17:49,710] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:17:49] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:17:51,665] WARNING in main: efufvvkhazjfrjdw bezocht
-[2024-11-07 16:17:51,666] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:17:51] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:17:52,306] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:17:52] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:18:38,007] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 20:30:41,746] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:30:44,287] WARNING in main: functie: home
+[2024-11-07 20:30:44,287] WARNING in main: args: ()
+[2024-11-07 20:30:44,287] WARNING in main: kwargs: {}
+[2024-11-07 20:30:44,295] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>succes</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+</head>
+<body>
+  <h1>Succesvol toegevoegd!</h1>
+    <h3>ALIAS: jjuqpgxczashelvi</h3>
+</body>
+</html>
+[2024-11-07 20:30:44,295] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:30:44] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:30:44,346] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:30:44] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:30:44,350] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:30:44] "GET /static/succes.css HTTP/1.1" 200 -
+[2024-11-07 20:31:35,587] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 16:18:38,007] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:18:40,677] WARNING in main: favicon.ico bezocht
-[2024-11-07 16:18:40,681] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:18:40] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:18:43,229] WARNING in main: efufvvkhazjfrjdw bezocht
-[2024-11-07 16:18:43,230] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:18:43] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:18:43,722] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:18:43] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:19:10,562] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:19:10] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:19:13,445] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:19:13] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:20:24,410] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2024-11-07 20:31:35,587] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:31:38,381] WARNING in main: functie: home
+[2024-11-07 20:31:38,381] WARNING in main: args: ()
+[2024-11-07 20:31:38,381] WARNING in main: kwargs: {}
+[2024-11-07 20:31:38,390] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>succes</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+</head>
+<body>
+  <h1>Succesvol toegevoegd!</h1>
+    <h3>ALIAS: dlyhvhojxbvvbnpt</h3>
+</body>
+</html>
+[2024-11-07 20:31:38,390] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:31:38] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:31:38,442] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:31:38] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:31:38,442] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:31:38] "GET /static/succes.css HTTP/1.1" 200 -
+[2024-11-07 20:31:38,494] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:31:38] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+[2024-11-07 20:31:42,561] WARNING in main: functie: home
+[2024-11-07 20:31:42,561] WARNING in main: args: ()
+[2024-11-07 20:31:42,561] WARNING in main: kwargs: {}
+[2024-11-07 20:31:42,562] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:31:42,562] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:31:42] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:38:01,167] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2024-11-07 16:20:24,410] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:20:26,665] WARNING in main: <!DOCTYPE html>
+[2024-11-07 20:38:01,168] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:38:04,469] WARNING in main: functie: home
+[2024-11-07 20:38:04,470] WARNING in main: args: ()
+[2024-11-07 20:38:04,470] WARNING in main: kwargs: {}
+[2024-11-07 20:38:04,479] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>succes</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+</head>
+<body>
+    <div class="shortener">
+        <a href="#" class="shorten-another">Shorten another link</a>
+        <div class="link-container">
+            <button class="copy-button">Copy</button>
+            <input type="text" class="link-input" value="http://127.0.0.1:5000/hmtlrvfahrmghzlt" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:38:04,479] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:38:04] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:38:04,532] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:38:04] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:38:04,532] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:38:04] "GET /static/succes.css HTTP/1.1" 200 -
+[2024-11-07 20:40:45,981] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 20:40:45,981] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:40:50,141] WARNING in main: functie: home
+[2024-11-07 20:40:50,141] WARNING in main: args: ()
+[2024-11-07 20:40:50,141] WARNING in main: kwargs: {}
+[2024-11-07 20:40:50,150] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>succes</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+</head>
+<body>
+    <div class="shortener">
+        <a href="#" class="shorten-another">Shorten another link</a>
+        <div class="link-container">
+            <button class="copy-button">Copy</button>
+            <input type="text" class="link-input" value="http://127.0.0.1:5000/zwjtptqbeatiodwr" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.link-input');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link copied to clipboard'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <a href="#" class="shorten-another">Shorten another link</a>
+        <div class="link-container">
+            <button class="copy-button" onclick="copyLink()">Copy</button>
+            <input type="text" class="link-input" value="http://127.0.0.1:5000/zwjtptqbeatiodwr" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:40:50,150] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:40:50] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:40:50,201] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:40:50] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:40:50,202] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:40:50] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:40:50,345] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:40:50] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+[2024-11-07 20:41:02,416] WARNING in main: functie: home
+[2024-11-07 20:41:02,416] WARNING in main: args: ()
+[2024-11-07 20:41:02,416] WARNING in main: kwargs: {}
+[2024-11-07 20:41:02,420] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>succes</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+</head>
+<body>
+    <div class="shortener">
+        <a href="#" class="shorten-another">Shorten another link</a>
+        <div class="link-container">
+            <button class="copy-button">Copy</button>
+            <input type="text" class="link-input" value="http://127.0.0.1:5000/rtfepzrupxpjggvw" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.link-input');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link copied to clipboard'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <a href="#" class="shorten-another">Shorten another link</a>
+        <div class="link-container">
+            <button class="copy-button" onclick="copyLink()">Copy</button>
+            <input type="text" class="link-input" value="http://127.0.0.1:5000/rtfepzrupxpjggvw" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:41:02,421] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:41:02] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:41:02,429] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:41:02] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:41:02,432] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:41:02] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:41:02,509] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:41:02] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+[2024-11-07 20:42:22,220] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 20:42:22,221] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:42:31,660] WARNING in main: functie: home
+[2024-11-07 20:42:31,660] WARNING in main: args: ()
+[2024-11-07 20:42:31,660] WARNING in main: kwargs: {}
+[2024-11-07 20:42:31,663] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:42:31,664] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:31] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:42:32,713] WARNING in main: functie: home
+[2024-11-07 20:42:32,713] WARNING in main: args: ()
+[2024-11-07 20:42:32,713] WARNING in main: kwargs: {}
+[2024-11-07 20:42:32,719] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+
+</head>
+<body>
+    <div class="shortener">
+        <a href="#" class="shorten-another">Shorten another link</a>
+        <div class="link-container">
+            <button class="copy-button" onclick="copyLink()">Copy</button>
+            <input type="text" class="link-input" value="http://127.0.0.1:5000/ezybvamgdwizijxc" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:42:32,719] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:32] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:42:32,770] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:32] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:42:32,771] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:32] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:42:40,122] WARNING in main: functie: home
+[2024-11-07 20:42:40,122] WARNING in main: args: ()
+[2024-11-07 20:42:40,122] WARNING in main: kwargs: {}
+[2024-11-07 20:42:40,127] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+
+</head>
+<body>
+    <div class="shortener">
+        <a href="#" class="shorten-another">Shorten another link</a>
+        <div class="link-container">
+            <button class="copy-button" onclick="copyLink()">Copy</button>
+            <input type="text" class="link-input" value="http://127.0.0.1:5000/mubyuhhabsdcgoxa" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:42:40,127] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:40] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:42:40,137] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:40] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:42:40,139] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:40] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:42:40,211] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:40] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+[2024-11-07 20:42:49,761] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 20:42:49,761] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:42:52,049] WARNING in main: functie: home
+[2024-11-07 20:42:52,049] WARNING in main: args: ()
+[2024-11-07 20:42:52,050] WARNING in main: kwargs: {}
+[2024-11-07 20:42:52,053] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:42:52,054] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:52] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:42:52,820] WARNING in main: functie: home
+[2024-11-07 20:42:52,821] WARNING in main: args: ()
+[2024-11-07 20:42:52,821] WARNING in main: kwargs: {}
+[2024-11-07 20:42:52,826] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.link-input');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <a href="#" class="shorten-another">Shorten another link</a>
+        <div class="link-container">
+            <button class="copy-button" onclick="copyLink()">Copy</button>
+            <input type="text" class="link-input" value="http://127.0.0.1:5000/iigwomahmsuskegl" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:42:52,827] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:52] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:42:52,873] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:52] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:42:52,876] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:42:52] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:43:01,072] WARNING in main: functie: home
+[2024-11-07 20:43:01,072] WARNING in main: args: ()
+[2024-11-07 20:43:01,072] WARNING in main: kwargs: {}
+[2024-11-07 20:43:01,072] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:43:01,072] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:43:01] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:43:59,302] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 20:43:59,302] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:44:01,139] WARNING in main: functie: home
+[2024-11-07 20:44:01,139] WARNING in main: args: ()
+[2024-11-07 20:44:01,139] WARNING in main: kwargs: {}
+[2024-11-07 20:44:01,147] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.link-input');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <a href="#" class="shorten-another">Shorten another link</a>
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="link-input" value="http://127.0.0.1:5000/rkihihibrijbdsvv" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:44:01,148] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:44:01] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:44:01,193] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:44:01] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:44:01,197] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:44:01] "GET /static/succes.css HTTP/1.1" 200 -
+[2024-11-07 20:44:05,820] WARNING in main: functie: home
+[2024-11-07 20:44:05,820] WARNING in main: args: ()
+[2024-11-07 20:44:05,820] WARNING in main: kwargs: {}
+[2024-11-07 20:44:05,822] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:44:05,822] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:44:05] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:44:08,181] WARNING in main: functie: home
+[2024-11-07 20:44:08,181] WARNING in main: args: ()
+[2024-11-07 20:44:08,181] WARNING in main: kwargs: {}
+[2024-11-07 20:44:08,186] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.link-input');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <a href="#" class="shorten-another">Shorten another link</a>
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="link-input" value="http://127.0.0.1:5000/abjjfthesidpxayq" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:44:08,187] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:44:08] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:44:08,196] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:44:08] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:44:08,199] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:44:08] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:45:22,045] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 20:45:22,045] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:45:24,401] WARNING in main: functie: home
+[2024-11-07 20:45:24,401] WARNING in main: args: ()
+[2024-11-07 20:45:24,401] WARNING in main: kwargs: {}
+[2024-11-07 20:45:24,405] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:45:24,405] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:45:24] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:45:25,027] WARNING in main: functie: home
+[2024-11-07 20:45:25,027] WARNING in main: args: ()
+[2024-11-07 20:45:25,027] WARNING in main: kwargs: {}
+[2024-11-07 20:45:25,037] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.link-input');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="veldje" value="http://127.0.0.1:5000/ajvvthxelcvajhmc" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:45:25,037] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:45:25] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:45:25,085] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:45:25] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:45:25,087] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:45:25] "GET /static/succes.css HTTP/1.1" 200 -
+[2024-11-07 20:45:27,505] WARNING in main: functie: home
+[2024-11-07 20:45:27,505] WARNING in main: args: ()
+[2024-11-07 20:45:27,505] WARNING in main: kwargs: {}
+[2024-11-07 20:45:27,505] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:45:27,506] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:45:27] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:45:29,618] WARNING in main: functie: home
+[2024-11-07 20:45:29,618] WARNING in main: args: ()
+[2024-11-07 20:45:29,618] WARNING in main: kwargs: {}
+[2024-11-07 20:45:29,624] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.link-input');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="veldje" value="http://127.0.0.1:5000/fpdfoyqmxwitauwy" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:45:29,624] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:45:29] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:45:29,632] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:45:29] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:45:29,634] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:45:29] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:45:33,508] WARNING in main: functie: home
+[2024-11-07 20:45:33,508] WARNING in main: args: ()
+[2024-11-07 20:45:33,508] WARNING in main: kwargs: {}
+[2024-11-07 20:45:33,508] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:45:33,508] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:45:33] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:46:25,173] WARNING in main: functie: home
+[2024-11-07 20:46:25,173] WARNING in main: args: ()
+[2024-11-07 20:46:25,173] WARNING in main: kwargs: {}
+[2024-11-07 20:46:25,178] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.link-input');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="veldje" value="http://127.0.0.1:5000/cvrabodoohbndamq" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:46:25,178] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:46:25] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:46:25,191] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:46:25] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:46:25,198] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:46:25] "GET /static/succes.css HTTP/1.1" 200 -
+[2024-11-07 20:46:40,808] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 20:46:40,808] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:46:42,929] WARNING in main: functie: home
+[2024-11-07 20:46:42,930] WARNING in main: args: ()
+[2024-11-07 20:46:42,930] WARNING in main: kwargs: {}
+[2024-11-07 20:46:42,934] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:46:42,934] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:46:42] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:46:43,654] WARNING in main: functie: home
+[2024-11-07 20:46:43,654] WARNING in main: args: ()
+[2024-11-07 20:46:43,654] WARNING in main: kwargs: {}
+[2024-11-07 20:46:43,659] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.link-input');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="veldje" value="http://127.0.0.1:5000/uxcuveavvvxchyrc" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:46:43,660] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:46:43] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:46:43,706] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:46:43] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:46:43,708] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:46:43] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:30,073] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-07 20:47:30,073] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-11-07 20:47:32,605] WARNING in main: functie: home
+[2024-11-07 20:47:32,605] WARNING in main: args: ()
+[2024-11-07 20:47:32,605] WARNING in main: kwargs: {}
+[2024-11-07 20:47:32,614] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.veldje');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="veldje" value="http://127.0.0.1:5000/wkermcnyswiquxzq" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:47:32,614] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:32] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:47:32,665] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:32] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:32,666] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:32] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:32,752] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:32] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:40,464] WARNING in main: functie: home
+[2024-11-07 20:47:40,464] WARNING in main: args: ()
+[2024-11-07 20:47:40,464] WARNING in main: kwargs: {}
+[2024-11-07 20:47:40,466] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:47:40,466] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:40] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:47:41,322] WARNING in main: functie: home
+[2024-11-07 20:47:41,322] WARNING in main: args: ()
+[2024-11-07 20:47:41,323] WARNING in main: kwargs: {}
+[2024-11-07 20:47:41,328] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.veldje');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="veldje" value="http://127.0.0.1:5000/aslkkhzximqjhtql" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:47:41,328] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:41] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:47:41,339] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:41] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:41,341] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:41] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:43,406] WARNING in main: functie: home
+[2024-11-07 20:47:43,406] WARNING in main: args: ()
+[2024-11-07 20:47:43,406] WARNING in main: kwargs: {}
+[2024-11-07 20:47:43,407] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:47:43,407] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:43] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:47:44,473] WARNING in main: functie: home
+[2024-11-07 20:47:44,473] WARNING in main: args: ()
+[2024-11-07 20:47:44,473] WARNING in main: kwargs: {}
+[2024-11-07 20:47:44,478] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.veldje');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="veldje" value="http://127.0.0.1:5000/zqrkyksboedonife" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:47:44,478] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:44] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:47:44,487] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:44] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:44,490] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:44] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:45,745] WARNING in main: functie: home
+[2024-11-07 20:47:45,745] WARNING in main: args: ()
+[2024-11-07 20:47:45,746] WARNING in main: kwargs: {}
+[2024-11-07 20:47:45,746] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:47:45,746] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:45] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:47:46,547] WARNING in main: functie: home
+[2024-11-07 20:47:46,547] WARNING in main: args: ()
+[2024-11-07 20:47:46,547] WARNING in main: kwargs: {}
+[2024-11-07 20:47:46,552] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.veldje');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="veldje" value="http://127.0.0.1:5000/jmhhvnhseahccoiu" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:47:46,552] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:46] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:47:46,563] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:46] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:46,564] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:46] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:48,494] WARNING in main: functie: home
+[2024-11-07 20:47:48,494] WARNING in main: args: ()
+[2024-11-07 20:47:48,494] WARNING in main: kwargs: {}
+[2024-11-07 20:47:48,494] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:47:48,495] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:48] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:47:51,077] WARNING in main: functie: home
+[2024-11-07 20:47:51,077] WARNING in main: args: ()
+[2024-11-07 20:47:51,078] WARNING in main: kwargs: {}
+[2024-11-07 20:47:51,084] WARNING in main: resultaat: <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -441,54 +1134,67 @@ IndexError: tuple index out of range
         <p>Error code 404</p>
     </div>
 </body>
-</html> bezocht
-[2024-11-07 16:20:26,665] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:20:26] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:20:29,747] WARNING in main: <Response 229 bytes [302 FOUND]> bezocht
-[2024-11-07 16:20:29,747] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:20:29] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:21:41,061] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2024-11-07 16:21:41,061] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:21:43,481] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2024-11-07 16:21:43,481] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:21:46,407] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:21:46] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:21:48,393] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:21:48] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:21:50,057] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:21:50] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:21:51,635] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:21:51] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:21:51,921] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:21:51] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:23:33,205] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2024-11-07 16:23:33,206] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:23:35,548] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:23:35] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:23:40,258] WARNING in main: ('https://www.google.be', 'efufvvkhazjfrjdw') bezocht
-[2024-11-07 16:23:40,258] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:23:40] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:23:40,920] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:23:40] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:24:12,369] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:24:12] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:24:14,671] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:24:14] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:24:16,367] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:24:16] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:24:52,889] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2024-11-07 16:24:52,889] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:24:54,892] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:24:54] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:24:56,903] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:24:56] "POST / HTTP/1.1" 200 -
-[2024-11-07 16:24:56,954] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:24:56] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
-[2024-11-07 16:24:56,954] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:24:56] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
-[2024-11-07 16:24:56,992] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:24:56] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:25:03,248] WARNING in main: https://www.google.be bezocht
-[2024-11-07 16:25:03,248] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:25:03] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:25:03,949] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:25:03] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:25:26,579] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:25:26] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:25:29,418] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:25:29] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:25:30,141] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:25:30] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:25:56,999] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2024-11-07 16:25:56,999] INFO in _internal: [33mPress CTRL+C to quit[0m
-[2024-11-07 16:25:59,260] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:25:59] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:26:02,383] WARNING in main: https://www.google.be bezocht
-[2024-11-07 16:26:02,383] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:26:02] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:26:02,998] WARNING in main: <Response 229 bytes [302 FOUND]> bezocht uit cache
-[2024-11-07 16:26:02,998] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:26:02] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:26:44,739] WARNING in main: <!DOCTYPE html>
+</html>
+[2024-11-07 20:47:51,085] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:51] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:47:51,093] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:51] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:51,100] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:51] "[36mGET /static/fail.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:54,298] WARNING in main: functie: home
+[2024-11-07 20:47:54,298] WARNING in main: args: ()
+[2024-11-07 20:47:54,298] WARNING in main: kwargs: {}
+[2024-11-07 20:47:54,298] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:47:54,298] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:54] "GET / HTTP/1.1" 200 -
+[2024-11-07 20:47:56,521] WARNING in main: functie: home
+[2024-11-07 20:47:56,521] WARNING in main: args: ()
+[2024-11-07 20:47:56,521] WARNING in main: kwargs: {}
+[2024-11-07 20:47:56,526] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/succes.css">
+    <title>Link Shortener</title>
+    <script>
+        function copyLink() {
+            const copyText = document.querySelector('.veldje');
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+            navigator.clipboard.writeText(copyText.value)
+                .then(() => alert('Link gekopieerd'))
+                .catch(err => alert('Failed to copy link'));
+        }
+    </script>
+</head>
+<body>
+    <div class="shortener">
+        <div class="link-container">
+            <button class="button-19" onclick="copyLink()">Copy</button>
+            <input type="text" class="veldje" value="http://127.0.0.1:5000/yoflblbejudusrtb" readonly>
+        </div>
+    </div>
+</body>
+</html>
+
+[2024-11-07 20:47:56,526] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:56] "POST / HTTP/1.1" 200 -
+[2024-11-07 20:47:56,537] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:56] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:47:56,539] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:47:56] "[36mGET /static/succes.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:48:02,765] WARNING in main: functie: url_match
+[2024-11-07 20:48:02,765] WARNING in main: args: ()
+[2024-11-07 20:48:02,765] WARNING in main: kwargs: {'url': 'gg'}
+[2024-11-07 20:48:02,766] WARNING in main: resultaat: <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -505,12 +1211,26 @@ IndexError: tuple index out of range
         <p>Error code 404</p>
     </div>
 </body>
-</html> bezocht uit cache
-[2024-11-07 16:26:44,740] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:26:44] "GET /favicon.ico HTTP/1.1" 200 -
-[2024-11-07 16:26:48,021] WARNING in main: <Response 229 bytes [302 FOUND]> bezocht uit cache
-[2024-11-07 16:26:48,021] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:26:48] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:26:48,849] WARNING in main: <Response 229 bytes [302 FOUND]> bezocht uit cache
-[2024-11-07 16:26:48,849] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 16:26:48] "[32mGET /efufvvkhazjfrjdw HTTP/1.1[0m" 302 -
-[2024-11-07 16:27:32,301] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2024-11-07 16:27:32,302] INFO in _internal: [33mPress CTRL+C to quit[0m
+</html>
+[2024-11-07 20:48:02,766] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:48:02] "GET /gg HTTP/1.1" 200 -
+[2024-11-07 20:48:02,777] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:48:02] "[36mGET /static/reset.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:48:02,778] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:48:02] "[36mGET /static/fail.css HTTP/1.1[0m" 304 -
+[2024-11-07 20:48:12,940] WARNING in main: functie: home
+[2024-11-07 20:48:12,940] WARNING in main: args: ()
+[2024-11-07 20:48:12,940] WARNING in main: kwargs: {}
+[2024-11-07 20:48:12,940] WARNING in main: resultaat: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="stylesheet" href="/static/style_home.css">
+</head>
+<body>
+    <form method="post">
+      <input class="veldje" type="text" id="url" name="url" placeholder="url" />
+      <button class="button-19" type="submit">submit</button>
+    </form>
+</body>
+</html>
+[2024-11-07 20:48:12,940] INFO in _internal: 127.0.0.1 - - [07/Nov/2024 20:48:12] "GET / HTTP/1.1" 200 -

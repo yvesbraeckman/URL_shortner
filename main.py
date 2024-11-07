@@ -1,12 +1,11 @@
 from flask import request
 from flask import Flask, redirect
 from flask import render_template
-import sqlite3
-import random
 from logging.config import dictConfig
 from functools import wraps
 from collections import OrderedDict
-
+import sqlite3
+import random
 
 con = sqlite3.connect("URL_Shortner.sqlite")
 cur = con.cursor()
@@ -17,16 +16,36 @@ def remember_recent_calls(f):
 
     @wraps(f)
     def wrapper(*args, **kwargs):
-            arg = list(kwargs.values())[0]
+            arg = list(kwargs.values())[0] if kwargs else args[0]
+            found = False
             if arg in cache:
-                return cache[arg]
+                result = cache[arg]
             else:
                 result = f(*args, **kwargs)
                 cache[arg] = result
                 if len(cache) >= 5:
                     cache.popitem(last=False)
-                return result
+            return result
     return wrapper
+
+
+def log_inputs_and_exceptions(logger_name):
+    def inner(f):
+
+        @wraps(f)
+        def wrapper(*args, **kwargs):
+            logger_name.warning(f"functie: { f.__name__}")
+            logger_name.warning(f"args: {repr(args)}")
+            logger_name.warning(f"kwargs: {repr(kwargs)}")
+            try:
+                res = f(*args, **kwargs)
+                logger_name.warning(f"resultaat: {res}")
+                return res
+            except Exception as error:
+                logger_name.warning(error)
+                raise error
+        return wrapper
+    return inner
 
 
 def randomstring():
@@ -67,6 +86,7 @@ con.close()
 
 
 @app.route("/", methods=["POST", "GET"])
+@log_inputs_and_exceptions(app.logger)
 def home():
     errors = []
     data = []
@@ -79,7 +99,7 @@ def home():
                 cur_1.executemany("""INSERT INTO Links VALUES (?, ?)""", data)
                 con_1.commit()
                 print(alias)
-            return render_template("succes.html")
+            return render_template("succes.html", alias=alias)
         else:
             errors.append("Geen URL opgegeven")
             return render_template("fail.html", errors=errors)
@@ -87,16 +107,21 @@ def home():
 
 
 @app.route("/<url>")
+@log_inputs_and_exceptions(app.logger)
 @remember_recent_calls
 def url_match(url):
     with sqlite3.connect("URL_Shortner.sqlite") as con_1:
         cur_1 = con_1.cursor()
         if cur_1.execute("SELECT Alias FROM Links WHERE Alias = ?", [url]).fetchone() is not None:
             res = cur_1.execute("SELECT * FROM Links WHERE Alias = ?", [url]).fetchone()
-            app.logger.warning(f"{res[0]} bezocht")
             return redirect(res[0])
         else:
             return render_template("fail.html")
+
+
+@app.route('/favicon.ico')
+def favicon():
+    return app.send_static_file('favicon.ico')
 
 
 if __name__ == '__main__':
